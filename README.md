@@ -2,7 +2,7 @@
 Pushover-ML is a didactic and user-friendly Graphical User Interface (GUI) to efficiently predict a trilinear approximation of pushover curves for low-rise reinforced concrete (RC) frame buildings, using a Machine Learning (ML) based approach.  This tool is expected to be used by practitioners (e.g. research centers and engineering offices) to quickly carry out a Pushover analysis without requiring the construction and implementation of detailed nonlinear models. By simplifying the prediction of seismic performance, Pushover-ML bridges the gap between advanced ML techniques and practical engineering applications.
 ## Trilinear approximation
 The GUI provides insights into the expected seismic capacity by predicting three key points of the Pushover curve: 1) Yielding point (Yield), 2) Maximum capacity point (Max), and 3) Collapse point (Coll). Those points are represented in the Pushover curve through the roof drift ratio (δ) and the base shear (Vs) of the frame building. The scheme for the trilinear prediction is presented below:
-![image](https://github.com/user-attachments/assets/0c1644f1-a5a5-46dc-9066-753ee84fba06)
+![image](https://github.com/user-attachments/assets/d4ba4702-f823-4623-b56e-a3934f5619c1)
 ## Input data
 Pushover-ML receives as input data 11 input variables related to the frame distribution, the section geometry and reinforcement ratios of structural elements (i.e. beams and columns), the material properties, and the applied vertical forces for an acceptable range presented in Figure 2 of [1]:
 ![image](https://github.com/user-attachments/assets/0776722f-6e24-4024-b772-4eb32d5d3c16)
