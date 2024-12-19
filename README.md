@@ -20,6 +20,8 @@ This repository provides an update of the GUI presented in previous research [2]
 * GUI: Includes the executable files (.exe) of Pushover-ML for the Spanish and English version. Also presents the Backend structure of the GUI, which can be executed on python environment by the "GUI_main.py" file (the user must accomplish with the compilation requirements, operating environments and dependencies presented in [1]).
 * Examples: Includes prediction examples for the individual and multiple mode of prediction. The individual folder provides to the user the output excel file format of the examples presented in Figure 5 of [1]. The multiple folder provides to the user an example of the input and output Excel file ("Example_MultipleMode.xlsx" and "Results_MultipleMode.xlsx", respectively) for multiple mode prediction, and another input Excel files in the folder "Errors" to exemplify typical errors indentified by the GUI.
 ### Note
+This project is licensed under the Apache License 2.0. See the [LICENSE](./LICENSE) file for details.
+
 This work is also part of MSc. thesis in Applied Analytics. For further information about Pushover-ML, licensing, data availability and collaboration in research related to ML applications, do not hesitate to contact at carlosantr@unisabana.edu.co.
 
 ## References
