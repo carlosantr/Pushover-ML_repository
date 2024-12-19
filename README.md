@@ -12,6 +12,7 @@ The GUI allows the user to make predictions using different ML techniques such a
 * Gradient Boosting Machines.
 * Random Forest.
 * Lasso Regression.
+
 And also provides per default an option called "BEST", which fits the predictions with a combination of the abovementioned ML techniques, selecting the best-performing models (i.e., δ and Vs) for each key point of the pushover curve (i.e., Yield, Max, and Coll), leveraging the strengths of each technique. 
 ## Repository distribution
 This repository provides an update of the GUI presented in previous research [2], including a more user-friendly interface, new ML techniques, different prediction modes (i.e., individual and multiple), and defining the yielding with greater robustness. The content of this repository is presented below:
