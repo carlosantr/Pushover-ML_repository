@@ -24,4 +24,5 @@ This work is also part of MSc. thesis in Applied Analytics. For further informat
 
 ## References
 [1] Angarita C., Montes C., Arroyo, O., 2025. Pushover-ML: A Machine Learning approach to predict a trilinear approximation of pushover curves for low-rise reinforced concrete frame buildings. SoftwareX (under review)
+
 [2] Angarita C., Montes C., Arroyo O., 2024. Machine learning – based approach for predicting pushover curves of low-rise reinforced concrete frame buildings. Structures 70, 107694. https://doi.org/10.1016/j.istruc.2024.107694 
