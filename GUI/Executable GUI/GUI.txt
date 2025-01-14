@@ -1,2 +1,2 @@
 Link GUI:
-10.5281/zenodo.14648386
+https://zenodo.org/records/14648386
