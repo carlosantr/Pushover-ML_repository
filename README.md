@@ -25,6 +25,6 @@ This project is licensed under the Apache License 2.0. See the [LICENSE](./LICEN
 This work is also part of MSc. thesis in Applied Analytics. For further information about Pushover-ML, licensing, data availability and collaboration in research related to ML applications, do not hesitate to contact at carlosantr@unisabana.edu.co.
 
 ## References
-[1] Angarita C., Montes C., Arroyo, O., 2025. Pushover-ML: A Machine Learning approach to predict a trilinear approximation of pushover curves for low-rise reinforced concrete frame buildings. SoftwareX (under review)
+[1] Angarita C., Montes C., Arroyo, O., 2025. Pushover-ML: A Machine Learning approach to predict a trilinear approximation of pushover curves for low-rise reinforced concrete frame buildings. SoftwareX 30. https://doi.org/10.1016/j.softx.2025.102122
 
 [2] Angarita C., Montes C., Arroyo O., 2024. Machine learning – based approach for predicting pushover curves of low-rise reinforced concrete frame buildings. Structures 70, 107694. https://doi.org/10.1016/j.istruc.2024.107694 
