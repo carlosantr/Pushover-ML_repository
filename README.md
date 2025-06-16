@@ -12,8 +12,33 @@ The GUI allows the user to make predictions using different ML techniques such a
 * Gradient Boosting Machines.
 * Random Forest.
 * Lasso Regression.
+## Processed Data
+The database include processed data (input variables [X] and output variables [Y]) and raw data (the Pushover response from openseespy whitout post-processing). However, the language of the data is Spanish. If you have troubles understanding the data, please do not hesitate to contact us or create a new issue in this repository. Below, we present the meaning of each of the columns of the processed data (those with X_n are the used input variables, and Y_n the output variables):
+* Ny: Number of stories (X_1)
+* Nx: Number of spans (X_2)
+* Ly: Column height (X_3)
+* Lx: Beam length (X_4)
+* Fc: Compressive strength of concrete (X_5)
+* W: Distributed total load on beams (X_6)
+* B: Base for beams and columns (X_7)
+* H: Height for beams (X_8)
+* Cuantia_V_Sup: Initial ratio for top of beam (not used)
+* Cuantia_V_Inf: Initial ratio for bottom of beam (not used)
+* Cuantia_C: Initial ratio of columns (not used)
+* Cuantia_V_Sup_Real: Final assigned ratio for top of beam (X_9)
+* Cuantia_V_Inf_Real: Final assigned ratio for bottom of beam (X_10)
+* Cuantia_C_Real: Final assigned ratio of columns (X_11)
+* n_Barras_V_Sup: Number of assigned bars for top of beam (not used - you can find the area of each bar using the reinforcement steel ratio formula)
+* n_Barras_V_Inf Number of assigned bars for bottom of beam (not used - you can find the area of each bar using the reinforcement steel ratio formula)
+* n_Barras_C: Number of assigned bars of the column (not used - you can find the area of each bar using the reinforcement steel ratio formula)
+* Plas_Vs: Base shear in the Yielding point (Yield - Y_1) 
+* Max_Vs: Base shear in the Maximum capacity point (Max - Y_2)
+* Fin_Vs: Base shear in the Collapse point (Coll - Y_3)
+* Plas_D: Roof drift ratio in the Yielding point (Yield - Y_4) 
+* Max_D: Roof drift ratio in the Maximum capacity point (Max - Y_5)
+* Fin_D: Roof drift ratio in the Collapse point (Coll - Y_6)
 
-And also provides per default an option called "BEST", which fits the predictions with a combination of the abovementioned ML techniques, selecting the best-performing models (i.e., δ and Vs) for each key point of the pushover curve (i.e., Yield, Max, and Coll), leveraging the strengths of each technique. 
+And also provides per default an option called "BEST", which fits the predictions with a combination of the abovementioned ML techniques, selecting the best-performing models (i.e., δ and Vs) for each key point of the pushover curve (i.e., Yield, Max, and Coll), leveraging the strengths of each technique. Below, we present the meaning of each of the columns of the processed data:
 ## Repository distribution
 This repository provides an update of the GUI presented in previous research [2], including a more user-friendly interface, new ML techniques, different prediction modes (i.e., individual and multiple), and defining the yielding with greater robustness. The content of this repository is presented below:
 * Database: Includes the processed data (used for training process of ML techniques) and the raw data (recorded after each Pushover analysis generated in OpenseesPy). The raw data is presented in Pickle format (visualization is available using Python). For further information about the meaning of each variable in the raw dataset, please do not hesitate to reach out at carlosantr@unisabana.edu.co
